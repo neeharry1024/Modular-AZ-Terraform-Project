@@ -1,0 +1,55 @@
+
+Project 6: Modular Terraform Project
+
+Objective:
+Build reusable Terraform infrastructure using modules for Azure resources.
+
+Project Structure:
+terraform-azure-modules/
+├── modules/
+│   ├── network/
+│   └── vm/
+├── environments/
+│   ├── dev/
+│   └── prod/
+└── README.md
+
+Key Concepts Learned:
+- Terraform Modules
+- Reusable Infrastructure
+- Environment Separation
+- Clean Project Structure
+- GitHub Version Control
+- Azure VM Deployment
+
+Modules Created:
+1. Network Module
+   - Virtual Network
+   - Subnet
+   - Network Security Group
+
+2. VM Module
+   - Linux Virtual Machine
+   - Public IP
+   - Network Interface
+   - SSH Authentication
+
+Environments:
+- Dev Environment
+- Prod Environment
+
+GitHub Issue Resolved:
+Removed large Terraform provider binaries and .terraform cache files from Git history.
+
+Important Files Ignored:
+- .terraform/
+- terraform.tfstate
+- terraform.tfstate.backup
+- provider binaries
+
+Skills Gained:
+- Terraform module development
+- Infrastructure organization
+- Multi-environment deployments
+- Git troubleshooting
+- Azure infrastructure automation
